@@ -1,12 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript Quiz</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
     
-</body>
+<header class="header">
+    <h1>Coding Quiz</h1>
+
+    <div class="timer" id="timer"></div>
+</header>
+
+<main class="quizBody">
+        
+    <div id="quizContainer" class="hide">
+
+        <div id="question">The Question</div>
+    
+        <div class="ans" id="ansChoices"></div>
+
+            <button id="ans1" class="button">Choice 1</button>
+            
+            <button id="ans2" class="button">Choice 2</button>
+            
+            <button id="ans3" class="button">Choice 3</button>
+            
+            <button id="ans4" class="button">Choice 4</button>
+
+    </div>
+
+    <div class="navBtn">
+
+        <button id="start" class="hide start button">Start!</button>
+
+        <button id="next" class="hide next button">Next!</button>
+
+    </div>
+</main>
+
+<script src="./assets/js/script.js"></script>
+
+  </body>
 </html>
